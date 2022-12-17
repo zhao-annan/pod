@@ -1,0 +1,36 @@
+{"level":"error","ts":"2022-12-06T21:13:53.739+0800","caller":"pod/main.go:61","msg":"error loading source consul: Get \"http://localhost:8500/v1/kv/micro/config?recurse=\": dial tcp [::1]:8500: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"error","ts":"2022-12-06T21:13:53.752+0800","caller":"pod/main.go:75","msg":"sql: unknown driver \"mysql\" (forgotten import?)"}
+{"level":"fatal","ts":"2022-12-06T21:13:53.781+0800","caller":"pod/main.go:157","msg":"CreateFile C:\\Users\\ASUS\\.home\\config: The system cannot find the path specified."}
+{"level":"error","ts":"2022-12-07T21:01:45.896+0800","caller":"pod/main.go:62","msg":"error loading source consul: Get \"http://localhost:8500/v1/kv/micro/config?recurse=\": dial tcp [::1]:8500: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"error","ts":"2022-12-07T21:01:45.914+0800","caller":"pod/main.go:76","msg":"Error 1045: Access denied for user ''@'localhost' (using password: NO)"}
+{"level":"fatal","ts":"2022-12-07T21:01:45.947+0800","caller":"pod/main.go:158","msg":"CreateFile C:\\Users\\ASUS\\.home\\config: The system cannot find the path specified."}
+{"level":"fatal","ts":"2022-12-08T19:48:24.068+0800","caller":"pod/main.go:158","msg":"CreateFile C:\\Users\\ASUS\\.home\\config: The system cannot find the path specified."}
+{"level":"fatal","ts":"2022-12-08T19:52:52.602+0800","caller":"pod/main.go:158","msg":"CreateFile C:\\Users\\ASUS\\.home\\config: The system cannot find the path specified."}
+{"level":"info","ts":"2022-12-08T19:58:21.950+0800","caller":"pod/main.go:153","msg":"0xc000074bc0"}
+{"level":"fatal","ts":"2022-12-08T19:58:21.962+0800","caller":"pod/main.go:158","msg":"CreateFile C:\\Users\\ASUS\\.home\\config: The system cannot find the path specified."}
+{"level":"info","ts":"2022-12-08T20:28:34.656+0800","caller":"pod/main.go:153","msg":"0xc000074680"}
+{"level":"error","ts":"2022-12-08T21:16:57.459+0800","caller":"pod/main.go:82","msg":"dial /: unknown network /"}
+{"level":"info","ts":"2022-12-08T21:16:57.517+0800","caller":"pod/main.go:159","msg":"0xc0000745c0"}
+{"level":"error","ts":"2022-12-08T21:22:46.684+0800","caller":"pod/main.go:84","msg":"Error 1130: Host 'Zhao' is not allowed to connect to this MySQL server"}
+{"level":"info","ts":"2022-12-08T21:22:46.752+0800","caller":"pod/main.go:161","msg":"0xc0001ae2b0"}
+{"level":"info","ts":"2022-12-08T21:38:41.414+0800","caller":"pod/main.go:161","msg":"0xc0002982a0"}
+{"level":"fatal","ts":"2022-12-08T21:38:41.451+0800","caller":"pod/main.go:210","msg":"Error 1050: Table 'pod' already exists"}
+{"level":"info","ts":"2022-12-08T21:42:05.821+0800","caller":"pod/main.go:161","msg":"0xc0005123d0"}
+{"level":"error","ts":"2022-12-08T21:48:56.061+0800","caller":"pod/main.go:84","msg":"default addr for network '192.168.2.12:3306' unknown"}
+{"level":"info","ts":"2022-12-08T21:48:56.150+0800","caller":"pod/main.go:161","msg":"0xc0001b9130"}
+{"level":"error","ts":"2022-12-08T21:49:53.650+0800","caller":"pod/main.go:84","msg":"default addr for network '192.168.2.12:3306' unknown"}
+{"level":"info","ts":"2022-12-08T21:49:53.727+0800","caller":"pod/main.go:161","msg":"0xc000312640"}
+{"level":"error","ts":"2022-12-08T21:50:09.525+0800","caller":"pod/main.go:84","msg":"default addr for network '192.168.2.12:3306' unknown"}
+{"level":"info","ts":"2022-12-08T21:50:09.600+0800","caller":"pod/main.go:161","msg":"0xc000074980"}
+{"level":"error","ts":"2022-12-08T21:51:03.757+0800","caller":"pod/main.go:84","msg":"Error 1130: Host 'Zhao' is not allowed to connect to this MySQL server"}
+{"level":"info","ts":"2022-12-08T21:51:03.853+0800","caller":"pod/main.go:161","msg":"0xc000614c00"}
+{"level":"error","ts":"2022-12-08T21:57:20.204+0800","caller":"pod/main.go:84","msg":"Error 1130: Host 'Zhao' is not allowed to connect to this MySQL server"}
+{"level":"info","ts":"2022-12-08T21:57:20.280+0800","caller":"pod/main.go:161","msg":"0xc0001d02e0"}
+{"level":"error","ts":"2022-12-08T21:58:17.542+0800","caller":"pod/main.go:84","msg":"Error 1130: Host 'Zhao' is not allowed to connect to this MySQL server"}
+{"level":"info","ts":"2022-12-08T21:58:17.643+0800","caller":"pod/main.go:161","msg":"0xc0001765c0"}
+{"level":"error","ts":"2022-12-15T18:17:10.252+0800","caller":"pod/main.go:65","msg":"error loading source consul: source not found: /micro/config"}
+{"level":"error","ts":"2022-12-15T18:17:10.336+0800","caller":"pod/main.go:84","msg":"Error 1045: Access denied for user ''@'localhost' (using password: NO)"}
+{"level":"info","ts":"2022-12-15T18:17:10.399+0800","caller":"pod/main.go:161","msg":"0xc0002a83f0"}
+{"level":"error","ts":"2022-12-15T19:32:45.822+0800","caller":"pod/main.go:65","msg":"error loading source consul: source not found: /micro/config"}
+{"level":"error","ts":"2022-12-15T19:32:45.895+0800","caller":"pod/main.go:84","msg":"Error 1045: Access denied for user ''@'localhost' (using password: NO)"}
+{"level":"info","ts":"2022-12-15T19:32:45.949+0800","caller":"pod/main.go:161","msg":"0xc0001dbc90"}
