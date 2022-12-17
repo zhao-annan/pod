@@ -34,3 +34,6 @@
 {"level":"error","ts":"2022-12-15T19:32:45.822+0800","caller":"pod/main.go:65","msg":"error loading source consul: source not found: /micro/config"}
 {"level":"error","ts":"2022-12-15T19:32:45.895+0800","caller":"pod/main.go:84","msg":"Error 1045: Access denied for user ''@'localhost' (using password: NO)"}
 {"level":"info","ts":"2022-12-15T19:32:45.949+0800","caller":"pod/main.go:161","msg":"0xc0001dbc90"}
+{"level":"error","ts":"2022-12-17T08:59:26.608+0800","caller":"pod/main.go:65","msg":"error loading source consul: Get \"http://192.168.2.12:8500/v1/kv/micro/config?recurse=\": dial tcp 192.168.2.12:8500: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"error","ts":"2022-12-17T08:59:26.626+0800","caller":"pod/main.go:84","msg":"Error 1045: Access denied for user ''@'localhost' (using password: NO)"}
+{"level":"info","ts":"2022-12-17T08:59:26.647+0800","caller":"pod/main.go:161","msg":"0xc0007156e0"}
