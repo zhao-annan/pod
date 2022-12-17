@@ -3,10 +3,6 @@ package main
 import (
 	"flag"
 	"fmt"
-	"git.imooc.com/zhao-annan/pod/domain/repository"
-	service2 "git.imooc.com/zhao-annan/pod/domain/service"
-	"git.imooc.com/zhao-annan/pod/handler"
-	"git.imooc.com/zhao-annan/pod/proto/pod"
 	"github.com/afex/hystrix-go/hystrix"
 	"github.com/asim/go-micro/plugins/registry/consul/v3"
 	ratelimit "github.com/asim/go-micro/plugins/wrapper/ratelimiter/uber/v3"
@@ -17,6 +13,10 @@ import (
 	"github.com/jinzhu/gorm"
 	"github.com/opentracing/opentracing-go"
 	"github.com/zhao-annan/common"
+	"github.com/zhao-annan/pod/domain/repository"
+	service2 "github.com/zhao-annan/pod/domain/service"
+	"github.com/zhao-annan/pod/handler"
+	"github.com/zhao-annan/pod/proto/pod"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/clientcmd"
 	"k8s.io/client-go/util/homedir"
@@ -25,8 +25,8 @@ import (
 	"path/filepath"
 	"strconv"
 
-	hystrix2 "git.imooc.com/zhao-annan/pod/plugin/hystrix"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
+	hystrix2 "github.com/zhao-annan/pod/plugin/hystrix"
 )
 
 var (

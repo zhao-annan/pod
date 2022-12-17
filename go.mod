@@ -1,4 +1,4 @@
-module git.imooc.com/zhao-annan/pod
+module github.com/zhao-annan/pod
 
 go 1.18
 

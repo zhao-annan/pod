@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 	"errors"
-	"git.imooc.com/zhao-annan/pod/domain/model"
-	"git.imooc.com/zhao-annan/pod/domain/repository"
-	"git.imooc.com/zhao-annan/pod/proto/pod"
 	"github.com/zhao-annan/common"
+	"github.com/zhao-annan/pod/domain/model"
+	"github.com/zhao-annan/pod/domain/repository"
+	"github.com/zhao-annan/pod/proto/pod"
 	v1 "k8s.io/api/apps/v1"
 	v13 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"

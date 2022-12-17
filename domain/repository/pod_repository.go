@@ -1,8 +1,8 @@
 package repository
 
 import (
-	"git.imooc.com/zhao-annan/pod/domain/model"
 	"github.com/jinzhu/gorm"
+	"github.com/zhao-annan/pod/domain/model"
 )
 
 //创建需要实现的接口
